@@ -1,27 +1,230 @@
-<?xml version="1.0" encoding="utf-8" ?>
-<site SitePrefVersionMajor="12" SitePrefVersionMinor="0">
-    <localinfo sitename="Bigoleshoes.com" showdiscoverrelatedfilesmsg="TRUE" ftporrdsserver="FALSE" mediaqueryfile="" localroot="C:%5CUsers%5Cdunlo%5COneDrive%5CDocuments%5CUnnamed%20Site%202%5C" assetfolder="C:%5CUsers%5Cdunlo%5COneDrive%5CDocuments%5CUnnamed%20Site%202%5CjQueryAssets%5C" webfontsfolder="C:%5CUsers%5Cdunlo%5COneDrive%5CDocuments%5CUnnamed%20Site%202%5Cwebfonts%5C" edgeassetsfolder="C:%5CUsers%5Cdunlo%5COneDrive%5CDocuments%5CUnnamed%20Site%202%5Canimation_assets%5C" csspreprocessorsoutputuseoption="sameFolder" csspreprocessorscompassuseoption="" csspreprocessorsbourbonuseoption="" csspreprocessorsbourbonneatuseoption="" csspreprocessorsbourbonbittersuseoption="" csspreprocessorsoutputfolder="C:%5CUsers%5Cdunlo%5COneDrive%5CDocuments%5CUnnamed%20Site%202%5Ccss%5C" csspreprocessorsoutputsegmentfrom="" csspreprocessorsoutputsegmentto="" csspreprocessorsinputfolder="C:%5CUsers%5Cdunlo%5COneDrive%5CDocuments%5CUnnamed%20Site%202%5C" csspreprocessorsbourbonpath="C:%5CProgram%20Files%5CAdobe%5CAdobe%20Dreamweaver%202021%5CConfiguration%5CSassFrameworks%5Cbourbon" csspreprocessorsneatpath="C:%5CProgram%20Files%5CAdobe%5CAdobe%20Dreamweaver%202021%5CConfiguration%5CSassFrameworks%5Cneat" csspreprocessorsbitterspath="C:%5CProgram%20Files%5CAdobe%5CAdobe%20Dreamweaver%202021%5CConfiguration%5CSassFrameworks%5Cbase" csspreprocessorenableautocompilation="TRUE" csspreprocessorenablestrictmath="FALSE" csspreprocessorenablestrictunits="FALSE" csspreprocessorrewriteurls="FALSE" csspreprocessorcreatesourcecomments="FALSE" csspreprocessorsaasoutputstyle="nested" csspreprocessorsasssourcemap="FALSE" csspreprocessorlesssourcemap="FALSE" csspreprocessorusecompass="FALSE" csspreprocessorsuseconfigfileforcompass="FALSE" csspreprocessoruserelativeassests="FALSE" csspreprocessorsrubybasedconfigfile="" csspreprocessorshtmlpathforcompass="C:%5CUsers%5Cdunlo%5COneDrive%5CDocuments%5CUnnamed%20Site%202%5Chtml%5C" csspreprocessorsimagesdirectoryforcompass="C:%5CUsers%5Cdunlo%5COneDrive%5CDocuments%5CUnnamed%20Site%202%5Cimages%5C" csspreprocessorsgeneratedimagesdirectoryforcompass="C:%5CUsers%5Cdunlo%5COneDrive%5CDocuments%5CUnnamed%20Site%202%5Cgeneratedimages%5C" csspreprocessorsfontsdirectoryforcompass="C:%5CUsers%5Cdunlo%5COneDrive%5CDocuments%5CUnnamed%20Site%202%5Cfonts%5C" advancedsettingphpversionnumber="PHP%205.6" advancedsettingbootstrapversionnumber="4.4.1" eslintecmaVersion="6" imagefolder="" spacerfilepath="" refreshlocal="TRUE" rewritedocrellinks="FALSE" cache="TRUE" httpaddress="http://bigoleshoes.com/" relativeTo="DOCUMENT" caseSensitiveLinks="FALSE" curserver="webserver"/>
-    <designnotes usedesignnotes="TRUE" sharedesignnotes="FALSE"/>
-    <sitemap homepage="" pagesperrow="200" columnwidth="125" showdependentfiles="FALSE" showpagetitles="FALSE" showhiddenfiles="FALSE"/>
-    <fileviewcolumns sharecolumns="FALSE">
-        <column name="Local%20Files" align="left" show="TRUE" share="FALSE" builtin="TRUE" localwidth="185" remotewidth="180"/>
-        <column name="Notes" align="center" show="FALSE" share="FALSE" builtin="TRUE" localwidth="56" remotewidth="56"/>
-        <column name="Size" align="right" show="FALSE" share="FALSE" builtin="TRUE" localwidth="-2" remotewidth="-2"/>
-        <column name="Type" align="left" show="FALSE" share="FALSE" builtin="TRUE" localwidth="80" remotewidth="80"/>
-        <column name="Modified" align="left" show="FALSE" share="FALSE" builtin="TRUE" localwidth="122" remotewidth="122"/>
-        <column name="Checked%20Out%20By" align="left" show="FALSE" share="FALSE" builtin="TRUE" localwidth="-1" remotewidth="-1"/>
-</fileviewcolumns>
-    <serverlist>
-        <server servermodel="" servertype="remoteServer" weburl="http://bigoleshoes.com/" connectionsmigrated="FALSE" serverobjectsversion="0" defaultdoctype="HTML" accesstype="ftp" host="ftp.bigoleshoes.com" remoteroot="public_html/" name="Bigoleshoes.com" maintainSyncInfo="TRUE" autoUpload="FALSE" autoSaveDependentFiles="FALSE" autoPushToTestingServer="TRUE" user="jamesdun" pw="736F67646F6A786F6D6A6E" savePW="TRUE" passphrase="" savepassphrase="FALSE" enablecheckin="FALSE" checkoutname="" checkoutwhenopen="TRUE" emailaddress="" identityfile="" identityfileabsolutepath="" usedefaultauthmethod="TRUE" usefirewall="FALSE" usepasv="TRUE" useSFTP="FALSE" useSFTPv2ByDefault="FALSE" useFTPS="FALSE" useImplicitFTPS="FALSE" encryptOnlyCommandChannel="FALSE" authenticationMode="TRUSTED_CERTIFICATE" useIPv6="FALSE" useftpoptimization="TRUE" usealternaterename="FALSE" pathNameCharacterSet="utf-8"/>
-</serverlist>
-    <cloaking enabled="TRUE" patterns="FALSE">
-        <cloakedfolder folder="dw_php_codehinting.config"/>
-        <cloakedpattern pattern=".fla"/>
-        <cloakedpattern pattern=".psd"/>
-        <cloakedpattern pattern=".less"/>
-        <cloakedpattern pattern=".sass"/>
-        <cloakedpattern pattern=".scss"/>
-        <cloakedpattern pattern=".map"/>
-</cloaking>
-    <contributorintegration enabled="FALSE"/>
-</site>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta CHARSET="utf-8">
+    <meta HTTP-EQUIV="X-UA-Compatible" CONTENT="IE=edge">
+    <meta name="viewport" CONTENT="width=device-width, initial-scale=1">
+    <title>Bootstrap Product Page Template</title>
+    <!-- Bootstrap -->
+    <link HREF="css/bootstrap-4.4.1.css" REL="stylesheet">
+    <link HREF="style.css" REL="stylesheet" TYPE="text/css">
+</head>
+  <body>
+    <nav CLASS="navbar navbar-expand-lg navbar-dark bg-dark" id="header">
+      <a CLASS="navbar-brand" HREF="#"><img SRC="images/istockphoto-1310405284-612x612.jpg" ALT="" WIDTH="50" HEIGHT="53" CLASS="rounded-circle"/>BIG OLE' SHOES.com ™&nbsp;</a>
+      <button CLASS="navbar-toggler" TYPE="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span CLASS="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul CLASS="navbar-nav mr-auto">
+          <li CLASS="nav-item active">
+            <a CLASS="nav-link" HREF="#">Home <span CLASS="sr-only">(current)</span></a>
+          </li>
+          <li CLASS="nav-item">
+            <a CLASS="nav-link" HREF="Page1.html">Men&nbsp;</a>
+          </li> 	
+          <li CLASS="nav-item">
+            <a CLASS="nav-link" HREF="page3.html">Women&nbsp;</a>
+		  <li CLASS="nav-item">
+            <a CLASS="nav-link" HREF="#">About Us&nbsp;</a>
+          </li>
+          <li CLASS="nav-item dropdown">
+            <a CLASS="nav-link" HREF="#" id="navbarDropdown" ROLE="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Contact &nbsp; &nbsp; &nbsp;</a>
+            <div CLASS="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">Send us a message</a?
+				  </div>
+              <a CLASS="dropdown-item" HREF="#">our sponsors</a>
+          </div>
+          </li>
+        </ul>
+        <form CLASS="form-inline my-2 my-lg-0">
+          <input CLASS="form-control mr-sm-2" TYPE="search" placeholder="Search" aria-label="Search">
+          <button CLASS="btn btn-outline-success my-2 my-sm-0" TYPE="submit">Search</button>
+        </form>
+  </nav>
+    <div CLASS="container mt-2">
+      <div CLASS="row">
+        <div CLASS="col-12">
+          <h3>&nbsp;</h3>
+<div CLASS="jumbotron">
+        <p CLASS="text-center">&nbsp;FEATURED SHOES FOR TALL MEN AND WOMEN</p>
+<div id="carouselExampleIndicators1" CLASS="carousel slide" data-ride="carousel" STYLE="background-color: grey">
+          <ol CLASS="carousel-indicators">
+                <li data-target="#carouselExampleIndicators1" data-slide-to="0" CLASS="active"></li>
+                <li data-target="#carouselExampleIndicators1" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicators1" data-slide-to="2"></li>
+          </ol>
+              <div CLASS="carousel-inner" ROLE="listbox">
+                <div CLASS="carousel-item active"> <img CLASS="d-block mx-auto" SRC="images/depositphotos_168752352-stock-photo-male-leather-shoes.jpg" ALT="First slide">
+                  <div CLASS="carousel-caption">
+                    <h5>&nbsp;</h5>
+                    <p>&nbsp;</p>
+                  </div>
+                </div>
+                <div CLASS="carousel-item"> <img SRC="images/upload9223368955665871009.jpg" ALT="Second slide" HEIGHT="400" CLASS="d-block mx-auto">
+                  <div CLASS="carousel-caption">
+                    <h5>&nbsp;</h5>
+                  </div>
+                </div>
+                <div CLASS="carousel-item"> <img CLASS="d-block mx-auto" SRC="images/stock-photo-top-view-bridal-grooms-pairs.jpg" ALT="Third slide">
+                  <div CLASS="carousel-caption">
+                    <h5>&nbsp;</h5>
+                    <p>&nbsp;</p>
+                  </div>
+                </div>
+              </div>
+            <a CLASS="carousel-control-prev" HREF="#carouselExampleIndicators1" ROLE="button" data-slide="prev"> <span CLASS="carousel-control-prev-icon" aria-hidden="true"></span> <span CLASS="sr-only">Previous</span> </a> <a CLASS="carousel-control-next" HREF="#carouselExampleIndicators1" ROLE="button" data-slide="next"> <span CLASS="carousel-control-next-icon" aria-hidden="true"></span> <span CLASS="sr-only">Next</span> </a> </div>
+<div CLASS="row justify-content-center">
+          <div class="col-auto"
+              </div>
+            <div CLASS="col-auto">
+              <p>&nbsp;</p>
+              <h4>&nbsp;</h4>
+        </div>
+          </div>
+          <p CLASS="text-center">&nbsp;</p>
+          <img SRC="images/ELLE-TOP-SNEAKER-1200x400.jpg" ALT="" CLASS="img-fluid">
+          <p><h2>Big Ole' shoes ™ is dedicated to finding the right sizes for you, we offer sizes up to 22 in Mens, and 17 in Womens, and cater to custom shoe widths and customized size requests.&nbsp;&nbsp;</h2>
+          </p> 
+        </div>
+      </div>
+      </div>
+    </div>
+    <div CLASS="container">
+      <div CLASS="row">
+        <div CLASS="text-center col-md-6 col-12">
+          <h3>Shop Vacation</h3>
+          <p><img SRC="images/istockphoto-620382830-612x612.jpg" WIDTH="200" HEIGHT="135" ALT=""/>&nbsp;</p>
+          <a CLASS="btn btn-danger btn-lg" HREF="page4.html" ROLE="button">Shop Now</a>
+        </div>
+        <div CLASS="text-center col-md-6 col-12">
+          <h3>Shop Work</h3>
+          <p><img SRC="images/istockphoto-1185325482-612x612.jpg" WIDTH="200" HEIGHT="135" ALT=""/></p>
+          <a CLASS="btn btn-info btn-lg" HREF="page5.html" ROLE="button">Shop Now</a>
+        </div>
+      </div>
+    </div>
+    <hr>
+    <div CLASS="container">
+      <div CLASS="row">
+        <div CLASS="col-lg-3 col-md-6 col-12">
+          <h2>Bed set&nbsp;&nbsp;</h2>
+          <p><img SRC="images/10319651.png" ALT="" WIDTH="195" HEIGHT="196"/>&nbsp; &nbsp; &nbsp;Shop  Bedtime shoes</p>
+        </div>
+        <div CLASS="col-lg-3 col-md-6 col-12">
+          <h2>Shower set</h2>
+          <p><img SRC="images/orange-yellow-white-pink-shower-sandals-quick-drying-bath-slippers-orange-yellow-white-pink-shower-sandals-quick-drying-121599782.jpg" WIDTH="215" HEIGHT="122" ALT=""/>Shop Custom shower shoes and Slippers</p>
+        </div>
+        <div CLASS="col-lg-3 col-md-6 col-12">
+          <h2> XLong Strings&nbsp;</h2>
+          <p><img SRC="images/offset_924741.jpg" WIDTH="200" HEIGHT="131" ALT=""/>Custom colorways and Shoestrings</p>
+        </div>
+        <div CLASS="col-lg-3 col-md-6 col-12">
+          <h2>Hiking Set&nbsp;</h2>
+          <p><img SRC="images/Hiking Boots (Lowa Renegade GTX on rock) (m).jpg" WIDTH="200" HEIGHT="135" ALT=""/>&nbsp; &nbsp;Extra Wide Comfortable Hiking boots</p>
+        </div>
+      </div>
+    </div>
+    <hr>
+    <section>
+      <div CLASS="container">
+        <div CLASS="row">
+          <div CLASS="col-12">
+            <div CLASS="embed-responsive-16by9"> </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div CLASS="container mt-4">
+      <div CLASS="row">
+        <div CLASS="col-sm-6">
+          <div CLASS="card">
+            <img SRC="images/pexels-photo-2529148.png" ALT="Card image cap" WIDTH="500" HEIGHT="268" CLASS="card-img-top rounded img-fluid">
+            <div CLASS="card-body">
+              <h5 CLASS="card-title">This seasons hottest shoes</h5>
+              <p CLASS="card-text">Check out or summer collection&nbsp;</p>
+              <a HREF="#" CLASS="btn btn-primary">Click here to shop&nbsp;</a>
+            </div>
+          </div>
+        </div>
+        <div CLASS="col-sm-6">
+          <div CLASS="card">
+            <img CLASS="card-img-top" SRC="images/5b1820211ae6621a008b49e8.png" ALT="Card image cap">
+            <div CLASS="card-body">
+              <h5 CLASS="card-title">Get Formal&nbsp;</h5>
+              <p CLASS="card-text">Find the right size shoe for that next formal occasion&nbsp; &nbsp; &nbsp;</p>
+              <a HREF="#" CLASS="btn btn-primary">Click here to shop&nbsp;</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="container py-sm-4">
+          <div class="row">
+            <div class="col-md-10 my-4 mx-auto">
+           
+  <hr>
+    <div CLASS="container">
+      <div CLASS="row">
+        <div CLASS="col-lg-4 col-md-6 col-sm-6 mb-md-0 mb-2">
+          <h2>Contact Us</h2>
+          <address>
+          <strong>Big Ole' shoes  ™ Inc&nbsp;</strong><br>
+8152 whaddaino road<br>
+CA, 91308-4075, US (123-456-7891)
+          </a
+          ></address>
+          <h4>&nbsp;</h4>
+          <p>&nbsp;</p>
+<div CLASS="row">
+        <div CLASS="col-2"></div>
+            <div CLASS="col-2"></div>
+            <div CLASS="col-2"></div>
+            <div CLASS="col-2"></div>
+          </div>
+        </div>
+        <div CLASS="col-lg-4 col-md-6 col-12">
+          <h2>Testimonials</h2>
+          <ul CLASS="list-unstyled">
+            <li CLASS="media">
+              <img SRC="images/241878335_4608939799140562_5954088484634495817_n.jpg" ALT="Generic placeholder image" WIDTH="35" CLASS="mr-3">
+              <div CLASS="media-body">
+                <h5 CLASS="mt-0 mb-1">This is the place to look!&nbsp; &nbsp;&nbsp;</h5>
+                <p CLASS="mb-0">&nbsp;I can confidently say that Big Ole' shoes has happily provided my family and I the perfect sized shoes to fit our daily needs! I wouldn't want to look anywhere else! - <strong>Jaelin Fer.&nbsp; &nbsp;</strong></p>
+              </div>
+            </li>
+            <li CLASS="media my-4">
+              <img SRC="images/_1_Myles_Parker.jpg" ALT="Generic placeholder image" WIDTH="35" CLASS="mr-3">
+              <div CLASS="media-body">
+                <h5 CLASS="mt-0 mb-1">My search is over</h5>
+                <p CLASS="mb-0">When my toes popped out of my last shoe, I knew it was the Final straw. Luckily, Big Ole' Shoes came in to save the day with affordable shoes in my size! <strong>- </strong><strong>Myles J Parker&nbsp; </strong>&nbsp;&nbsp;</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <div CLASS="col-lg-4 col-12">
+          <h2>About Us</h2>
+          <p>Founded in small garage by a team of 3 inspired sneaker enthusiats, Big Ole' Shoes has been the face of equality for the shoe industry and hopes to provie quality, affordable footwear for all. &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</p>
+          <p>&nbsp;Wide feet? Narrow feet? high arches? Our company aims to provide to everyone (except small feet, go somewhere else)&nbsp; &nbsp;</p>
+        </div>
+      </div>
+    </div>
+    <hr>
+    <footer CLASS="text-center">
+      <div CLASS="container">
+        <div CLASS="row">
+          <div CLASS="col-12">
+            <p>Copyright © MyWebsite. All rights reserved.</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script SRC="js/jquery-3.4.1.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script SRC="js/popper.min.js"></script>
+    <script SRC="js/bootstrap-4.4.1.js"></script>
+  </body>
+</html>
